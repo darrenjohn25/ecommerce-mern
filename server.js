@@ -17,7 +17,7 @@ const orderRoutes = require('./routes/order');
 
 // app
 const app = express();
-const mongo="mongodb+srv://ecom-db:ecom-db@ecom.u0d09.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const mongo="mongodb+srv://test:test@ecommerce.dwcyb9l.mongodb.net/?retryWrites=true&w=majority";
 // db connection
 const connectDB = async () => {
   try {
